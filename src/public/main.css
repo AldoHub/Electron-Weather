@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap');
+
+body {
+    color: rgb(61, 61, 61);
+    font-family: "Source Sans Pro";
+    font-size: 20px;
+}
+
+header {
+    height: 400px;
+}
+
+header h1 {
+    font-size: 95px;
+    line-height: 95px;
+    padding-left: 20%;
+}
+
+header p {
+    padding-left: 20%;
+    margin-top: -20px;
+}
+
+#hero {
+    position: absolute;
+    z-index: -1;
+    width: 500px;
+    top: 6%;
+    right: 10%;
+}
+main {
+    padding-bottom: 120px;
+    text-align: center;
+}
+
+#conditions {
+    margin-top: 120px;
+  
+}
+
+
+#conditions h4, #conditions h2{
+    margin: 0px;
+}
+
+#conditions h4 {
+    margin-top: 30px;
+}
+
+#conditions h2 {
+    margin-bottom: 30px;
+}
+
+form * {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    -webkit-box-shadow: 0px 0px 38px -6px rgba(189,189,189,1);
+    -moz-box-shadow: 0px 0px 38px -6px rgba(189,189,189,1);
+    box-shadow: 0px 0px 38px -6px rgba(189,189,189,1);
+}
+
+form input[type="submit"]{
+    background: rgb(241, 189, 17);
+    font-weight: bold;
+}

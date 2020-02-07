@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../public/main.css" type="text/css" />
+    <title>Electron Weather</title>
+</head>
+<body>
+    
+    <img id="hero" src="../public/images/taxi-autopilot.png" />
+    <header>
+        <h1>Electron <br/> Weather</h1>
+        <p>illustration by <strong>Ouch.pics</strong></p>
+    </header>
+
+    <main>
+        <p>Type the name of a city to find out the weather conditions</p>
+        <form method="POST" id="weatherForm">
+            <input type="text" id="city" placeholder="City Name" />
+            <input id="postSubmit" type="submit" value="Submit" />
+        </form>
+    </main>
+
+    <script src="../public/functions.js"></script>
+</body>
+</html>
